@@ -1,0 +1,491 @@
+@media (max-width:1200px) {
+  /* header */
+  .nav--mobile {
+    padding: 30px 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--bg);
+    z-index: 2;
+  }
+
+  .nav--mobile .hamburger {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+  }
+
+  .header-nav .hamburger {
+    display: block;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .nav--mobile .nav-list {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 60px;
+  }
+
+  .nav--mobile .nav-btn {
+    margin: 20px 0px 0px;
+  }
+
+  .header-img img {
+    left: 25px;
+  }
+
+  /* bag-accessories */
+  .bag-accessories {
+    margin-top: 130px;
+
+    height: auto;
+  }
+
+  .bag-accessories-row {
+    flex-wrap: wrap;
+  }
+
+  .accessories-item {
+    margin-bottom: 80px;
+
+    max-width: 600px;
+    
+    flex-wrap: wrap;
+    gap: 70px 140px;
+  }
+
+  .bags-item {
+    max-width: 600px;
+    
+    flex-wrap: wrap;
+    gap: 30px 30px;
+  }
+
+  /* abounts */
+  .abouts {
+    margin-top: 100px;
+
+    height: auto;
+  }
+  
+  .abouts-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    column-gap: unset;
+    row-gap: 30px;
+  }
+    
+  .abouts-row-contetn {  
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    order: 1;
+  }
+
+  .abouts-row__img {
+    order: 2;
+  }
+
+  /* products */
+  .products {
+    height: auto;
+  }
+
+  /* registration */
+  .registration {
+    display: none;
+  }
+}
+
+@media (max-width:1000px) {
+  .header {
+    padding-top: 20px;
+
+    height: auto;
+  }
+
+  .header-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-contetn {
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .header-title {
+    margin-bottom: 20px;
+    
+    font-size: 61px;
+  }
+
+  .header-text {
+    margin-bottom: 30px;
+    
+    font-size: 16px;
+  }
+
+  .header-img {
+    width: 700px;
+    height: 270px;
+    
+    background-size: 700px 270px;
+    background-position: center;
+  }
+
+  .header-img img {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 400px;
+    height: 400px;
+  }
+
+  /* bag-accessories */
+  .bag-accessories {
+    margin-top: 115px;
+
+    height: auto;
+  }
+  .bags-item {
+    gap: 30px 30px;
+  }
+
+  /* abouts */
+  .abouts-row__img {
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+  }
+  .abouts-row__img img {
+    width: 500px;
+    height: 350px;
+  }
+
+  .abouts-row-contetn {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .badge {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .abouts-row-contetn__title {
+    margin-bottom: 20px;
+    
+    font-size: 21px;
+  }
+  .abouts-row-contetn__text {
+    margin-bottom: 30px;
+
+    font-size: 13px;
+  }
+
+  /* footer */
+  .footer {
+    margin-top: 100px;
+    padding: 47px 0 46px;
+
+    height: auto;
+  }
+
+  .footer-row {
+    min-height: 175px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 20px;
+  }
+
+  .footer-row li {
+    align-items: center;
+    row-gap: 5px;
+  }
+
+  .footer-row li:nth-child(2){
+    display: none;
+
+    border: var(--br);
+  }
+}
+
+@media (max-width:425px) {
+  .header {
+    padding-top: 20px;
+  }
+
+  .nav--mobile {
+    padding: 20px 15px;
+  }
+
+  .nav--mobile .hamburger {
+    top: 20px;
+  }
+
+  .header-contetn {
+    margin-top: 30px;
+  }
+
+  .header-title {
+    margin-bottom: 15px;
+    font-size: 51px;
+  }
+
+  .header-text {
+    margin-bottom: 25px;
+
+    font-size: 13px;
+  }
+
+  .header-btn {
+    padding: 15px 20px;
+    
+    width: 140px;
+    height: 45px;
+
+    font-size: 15px;
+  }
+
+  .header-img {
+    width: 360px;
+    height: 250px;
+
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header-img img {
+    top: 10px;
+
+    width: 350px;
+  }
+
+  /* bag-accessories */
+  .bag-accessories {
+    margin-top: 90px;
+
+    height: auto;
+  }
+
+  .accessories-item {
+    margin-bottom: 70px;
+
+    gap: 55px 140px;
+  }
+  .bags-items {
+    width: 235px;
+    height: 265px;
+  }
+
+  .accessories-item a {
+    font-size: 18px;
+  }
+
+  .accessories-item a::after {
+    content: "";
+    position: absolute;
+    bottom: -41px;
+    left: 50%;
+    width: 200px;
+  }
+
+  /* abount */
+  .abouts-row__img img {
+    display: none;
+  }
+
+  .abouts-row-contetn__title {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
+  .abouts-row-contetn__text {
+    margin-bottom: 20px;
+   
+    font-size: 11px;
+  }
+
+  /* products */
+  .products {
+    margin-top: 60px;
+    height: auto;
+  }
+
+  .products-title {
+    margin-bottom: 20px;
+    
+    font-size: 21px;
+  }
+  
+  .products-text {
+    margin-bottom: 55px;
+    
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .products-items {
+    margin-bottom: 100px;
+
+    gap: 80px 0px;
+  }
+
+  .products-item {
+    padding: 0px 35px 20px 32px;
+    
+    width: 255px;
+    height: 263px;
+  }
+
+  .products-btn {
+    padding: 15px 25px;
+
+    width: 165px;
+    height: 45px;
+  
+    font-size: 13px;
+  }
+
+  /* sponsors */
+  .sponsors {
+    display: none;
+  }
+}
+
+@media (max-width:360px) {
+  .nav--mobile {
+    padding: 30px 15px;
+  }
+  .hamburger {
+    padding: 10px 10px;
+  }
+
+  .logo {
+    font-size: 25px;
+  }
+
+  .badge {
+    font-size: 15px;
+  }
+
+  .header-title {
+    margin-bottom: 10px;
+
+    font-size: 41px;
+  }
+
+  .header-text {
+    margin-bottom: 20px;
+   
+    font-size: 10px;
+  }
+
+  .header-btn {
+    padding: 15px 15px;
+
+    width: 130px;
+    height: 40px;
+
+    font-size: 13px;
+  }
+
+  .header-img {
+    width: 315px;
+
+    background-position: center;
+  }
+
+  .header-img img {
+    top: 20px;
+
+    width: 315px;
+  }
+
+  /* bag-accessories */
+  .bag-accessories {
+    margin-top: 60px;
+    
+    height: auto;
+  }
+  .accessories-item {
+    margin-bottom: 70px;
+
+    gap: 45px 140px;
+  }
+
+  .accessories-item a {
+    font-size: 15px;
+  }
+  .accessories-item a::after {
+    bottom: -40px;
+
+    width: 165px;
+  }
+
+  /* abouts */
+  .abouts {
+    margin-top: 80px;
+
+    height: auto;
+  }
+  
+  .badge {
+    font-size: 12px;
+  }
+
+  .abouts-row-contetn__title {
+    margin-bottom: 15px;
+
+    font-size: 14px;
+  }
+
+  .abouts-row-contetn__text {
+    margin-bottom: 25px;
+   
+    font-size: 10px;
+  }
+  .abouts-row-contetn__btn {
+    padding: 15px 20px;
+  
+    width: 130px;
+    height: 40px;
+  
+    font-size: 13px;
+  }
+}
